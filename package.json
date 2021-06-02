@@ -1,5 +1,5 @@
 {
-  "name": "shawn",
+  "name": "shawnnpmexample",
   "version": "1.0.0",
   "bin": {
     "shawn": "index.js"
