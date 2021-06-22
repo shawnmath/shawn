@@ -14,5 +14,12 @@
     "mathew",
     "front end engineer",
     "web engineer"
-  ]
+  ],
+  "license": "unlicensed",
+  "main": "index.js",
+  "repository": "shawnmath/shawnmathew",
+  "author": {
+    "name": "Shawn Mathew",
+    "email": "shawn.mathew@gmail.com"
+  }
 }
