@@ -2,6 +2,10 @@
 
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
+const chalk = require('chalk');
+const log = console.log;
+const dim = chalk.dim;
+const greenBg = chalk.green.inverse;
 
 welcome({
   title: pkgJSON.name,
@@ -14,13 +18,15 @@ welcome({
   clear: true
 });
 
-console.log(`
-Shawn Mathew - Frontend Engineer
+log(`
+${chalk.blue(`Shawn Mathew - Frontend Engineer`)}
 
-I'm a frontend engineer building web experiences for both public and private customers. 
-I collaborate with engineers, product managers and designers to deliver frontend systems that meet the need of its users.
+${chalk.italic(
+  `I'm a frontend engineer building web experiences for both public and private customers. 
+I collaborate with engineers, product managers and designers to deliver frontend systems that meet the need of its users.`
+)
+  }
 
-Tech I work with:
-Javascript, Typescript, React, Redux, Node.js, Next.js, GraphQL, Apollo, Sass, Webpack, Babel, NPM, Jest, Enzyme
-
+${dim(`Tech I work with:`)}
+${greenBg(`Javascript, Typescript, React, Redux, Node.js, Next.js, GraphQL, Apollo, Sass, Webpack, Babel, NPM, Jest, Enzyme`)}
 `);
