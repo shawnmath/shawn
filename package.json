@@ -1,6 +1,6 @@
 {
   "name": "shawnmathew",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "My job description",
   "bin": {
     "shawnmathew": "index.js"
